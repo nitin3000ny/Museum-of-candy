@@ -1,6 +1,15 @@
+html {
+    overflow: none;
+}
+
 body {
     background: #f89cbc;
     overflow-x: hidden;
+}
+
+.container2 {
+    overflow: hidden;
+    width: 100%;
 }
 
 .featured-div h2 {
