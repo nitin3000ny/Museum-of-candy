@@ -55,12 +55,45 @@ body {
 }
 
 .featured-sec {
-    margin-block: 100px;
+    margin-top: 100px;
 }
 
 .navbar.scrolled {
     background: rgb(207, 180, 207);
     transition: background 500ms;
+}
+
+footer {
+    padding-block: 10px;
+    background-image: linear-gradient(to left, rgba(142, 73, 73, 0.228), rgba(159, 3, 3, 0.146)), url(https://t3.ftcdn.net/jpg/04/84/03/22/240_F_484032258_nTNceWTJPK6jzRMdFi5rIOylLLzSFqry.jpg);
+    
+    background-size: 300px;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color:  rgb(54, 9, 255);
+    
+    text-shadow: 1px 1px rgb(154, 141, 141);
+}
+#aryaman{
+    display: inline-block;
+    color: #ffffff;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-weight: 400;
+}
+#aryaman:hover{
+    font-weight: 600;
+    text-decoration:none;
+    transform: translateX(30px);
+    scale: 1.42;
+    box-shadow: 1px 1px black;
+}.footer-text{
+    /* background-color: #14236c5a; */
+}
+.footer-text:hover{
+    box-shadow: 1px 1px 4px rgb(43, 42, 42);
+    /* background-color: rgba(85, 26, 223, 0.219); */
 }
 
 @media screen and (max-width:1250px) {
